@@ -1,0 +1,12 @@
+:root {
+    --purple-color: #72005F;
+    --beige-color: #BAA193;
+
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}

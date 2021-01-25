@@ -1,0 +1,54 @@
+header {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+header strong:first-child {
+    color: var(--beige-color);
+    font-size: 32px;
+    line-height: 24px;
+}
+
+header strong + strong {
+    color: var(--purple-color);
+    font-size: 64px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: #EBE4E0;
+    width: 1300px;
+    height: 600px;
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .advice {
+    margin: auto 0 auto 128px;
+}
+
+.card .advice p:first-child {
+    width: 400px;
+    color: var(--purple-color);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.card .advice p + p {
+    color: var(--beige-color);
+    font-size: 36px;
+    margin-left: 264px;
+}
+
+.card .goat-image img{
+    width: 570px;
+    height: 100%;
+    border-radius: 32px 0 0 32px;
+}

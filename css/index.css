@@ -1,0 +1,42 @@
+.page-container {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ask-advice {
+    width: 350px;
+    margin-top: 220px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ask-advice strong:first-child {
+    color: var(--beige-color);
+    font-size: 60px;
+    line-height: 24px;
+}
+
+.ask-advice strong + strong {
+    color: var(--purple-color);
+    font-size: 144px;
+}
+
+.ask-advice a {
+    height: 80px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    background: var(--purple-color);
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.goat-image img {
+    height: 650px;
+}
