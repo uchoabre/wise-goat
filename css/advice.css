@@ -4,6 +4,10 @@ header {
     flex-direction: column;
 }
 
+header a {
+    display: flex;
+}
+
 header strong:first-child {
     color: var(--beige-color);
     font-size: 32px;
@@ -30,25 +34,26 @@ main {
     justify-content: space-between;
 }
 
-.card .advice {
+.card .advice-container {
     margin: auto 0 auto 128px;
 }
 
-.card .advice p:first-child {
+.card .advice-container p:first-child {
     width: 400px;
     color: var(--purple-color);
     font-size: 48px;
     font-weight: 600;
 }
 
-.card .advice p + p {
+.card .advice-container p + p {
     color: var(--beige-color);
     font-size: 36px;
     margin-left: 264px;
 }
 
 .card .goat-image img{
-    width: 570px;
+    width: 540px;
     height: 100%;
+    object-fit: cover;
     border-radius: 32px 0 0 32px;
 }
