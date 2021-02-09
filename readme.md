@@ -18,6 +18,7 @@
 
 * [Desafio Devchallenge](#desafio-devchallenge) 
 * [Techs](#techs)
+* [Teste a aplicação](#teste-a-aplicação)
 
 # Desafio Devchallenge
 O desafio proposto pela <a href="https://www.devchallenge.com.br/">DevChallenge</a> é criar um site que gera conselhos e imagens de bodes, consumindo os dados de duas APIs.
@@ -30,7 +31,10 @@ As APIs recomendadas para o <a href="https://github.com/devchallenge-io/wisegoat
 ## Página de conselho
 <img src="/design/advice.jpeg">
 
-# Techs: 
+# Techs
 - HTML
 - CSS
 - JavaScript
+
+# Teste a aplicação
+https://loving-dubinsky-a8ec79.netlify.app
